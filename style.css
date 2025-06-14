@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+body {
+  background: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+.navbar {
+  background: #222;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+.hero {
+  text-align: center;
+  padding: 4rem 1rem;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: white;
+}
+.hero span {
+  color: yellow;
+}
+.about, .projects, .contact {
+  padding: 2rem 1rem;
+  max-width: 800px;
+  margin: auto;
+}
+.project-card {
+  background: white;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-left: 4px solid #2575fc;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+footer {
+  text-align: center;
+  background: #222;
+  color: white;
+  padding: 1rem;
+  margin-top: 2rem;
+}
